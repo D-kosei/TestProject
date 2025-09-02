@@ -1,40 +1,26 @@
 [versions]
 agp = "8.12.2"
-
-# Test
 junit = "4.13.2"
-junitExt = "1.1.5"
+junitVersion = "1.1.5"
 espressoCore = "3.5.1"
-
-# AndroidX / UI
 appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
-
-# Desugaring / Data
-desugarJdkLibs = "2.0.4"
-datastore = "1.1.1"
-rxjava3 = "3.1.8"
+desugerJdkLibs = "2.0.4"
+datastore = "1.1.7"
 
 [libraries]
-# Test
 junit = { group = "junit", name = "junit", version.ref = "junit" }
-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitExt" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-
-# AndroidX / UI
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-
-# Desugaring
-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugarJdkLibs" }
-
-# DataStore (RxJava3) & RxJava3  ← ドット無しのエイリアス名に変更
-datastorePreferencesRxjava3 = { group = "androidx.datastore", name = "datastore-preferences-rxjava3", version.ref = "datastore" }
-rxjava3 = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxjava3" }
+desuger-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugerJdkLibs" }
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+datastore-preferences-rxjava3 = { group = "androidx.datastore", name = "datastore-preferences-rxjava3", version.ref = "datastore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="text">Kosei!</string>
-    <string name="name" />
+    <string name="name">ここに表示したい名前</string>
 </resources>

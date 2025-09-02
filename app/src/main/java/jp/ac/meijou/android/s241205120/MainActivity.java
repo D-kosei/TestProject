@@ -10,8 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import jp.ac.meijou.android.s241205173.PrefDataStore;
-import jp.ac.meijou.android.s241205173.databinding.ActivityMainBinding;
+import jp.ac.meijou.android.s241205120.PrefDataStore;
+import jp.ac.meijou.android.s241205120.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
